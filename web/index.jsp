@@ -8,10 +8,10 @@
 </head>
 <%@ taglib uri="/struts-tags" prefix="S"%>
 <body>
- <S:form action="LoginJsp">
+ <S:form action="/loginStruts/LoginJsp">
  
  	<S:textfield name="username"/>
- 	
+ 	<S:textfield name="password"/>
  	<S:submit value="LOG IN"></S:submit>
  	
  </S:form>
