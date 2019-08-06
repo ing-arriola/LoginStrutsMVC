@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC 
+"-//Apache Software Foundation/DTS Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default" extends="struts-default" namespace="/">
+		<action name="LoginJsp" class="org.jaime.action.GetLoginAction">
+			<result name="exito">/exito.jsp</result>
+			<result name="falla">/falla.jsp</result>
+		</action>
+	</package>
+</struts>
